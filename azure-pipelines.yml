@@ -15,7 +15,7 @@ steps:
 - script: |
     yarn install
     yarn build 
-  workingDirectory: static-site-azure-app-service
+  #workingDirectory: static-site-azure-app-service
   displayName: 'yarn install and build'
 - task: CopyFiles@2
   inputs:
